@@ -1,2 +1,84 @@
 +b main
 Breakpoint 1 at 0x40146e: file c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem06.c, line 9.
++r
+Starting program: c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01/./problem06.exe 
+[New Thread 21944.0x42d8]
+[New Thread 21944.0x574c]
+
+Breakpoint 1, main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem06.c:9
+9	    num1 = input();
++s
+input () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem06.c:19
+19	    printf("Enter a number: ");
++s
+20	    scanf("%d", &num);
++s
+21	    return num;
++s
+22	}
++s
+main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem06.c:10
+10	    num2 = input();
++s
+input () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem06.c:19
+19	    printf("Enter a number: ");
++s
+20	    scanf("%d", &num);
++s
+21	    return num;
++s
+22	}
++s
+main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem06.c:11
+11	    num3 = input();
++s
+input () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem06.c:19
+19	    printf("Enter a number: ");
++s
+20	    scanf("%d", &num);
++s
+21	    return num;
++s
+22	}
++s
+main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem06.c:12
+12	    compare(num1, num2, num3, &largest);
++s
+compare (a=6422476, b=6422476, c=6422476, largest=0x61ff10) at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem06.c:24
+24	    if (a >= b && a >= c) {
++s
+25	        *largest = a;
++s
+31	}
++s
+main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem06.c:13
+13	    output(num1, num2, num3, largest);
++s
+output (a=6422476, b=6422476, c=6422476, largest=6422476) at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem06.c:33
+33	    printf("Among %d, %d, and %d, the largest number is: %d\n", a, b, c, largest);
++s
+34	}
++s
+main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem06.c:15
+15	    return 0;
++s
+16	}
++s
+0x00401288 in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x00401292 in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+[Inferior 1 (process 21944) exited normally]
++quit
