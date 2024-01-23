@@ -1,0 +1,11 @@
++b main
+Breakpoint 1 at 0x40146e: file c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem02.c, line 6.
++r
+Starting program: c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01/./problem02.exe 
+[New Thread 6624.0x5094]
+[New Thread 6624.0x534]
+
+Breakpoint 1, main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem02.c:6
+6	    printf("enter two numbers:");
++s
+7	    scanf("%d %d",&a,&b);
