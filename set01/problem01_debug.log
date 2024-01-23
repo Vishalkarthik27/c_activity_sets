@@ -1,0 +1,18 @@
++b main
+Breakpoint 1 at 0x40146e: file c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem01.c, line 5.
++r
+Starting program: c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01/./problem01.exe 
+[New Thread 15292.0x30e0]
+[New Thread 15292.0x325c]
+
+Breakpoint 1, main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem01.c:5
+5	    printf("my name is vishal karthik");
++s
+6	    return 0;
++s
+7	}+quit
+A debugging session is active.
+
+	Inferior 1 [process 15292] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
