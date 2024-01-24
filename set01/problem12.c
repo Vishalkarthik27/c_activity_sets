@@ -1,20 +1,16 @@
 #include <stdio.h>
 
-// Structure to represent a complex number
 struct _complex {
     float real, imaginary;
 };
 typedef struct _complex Complex;
 
-// Function to get the value of n
 int get_n() {
     int n;
     printf("Enter the value of n: ");
     scanf("%d", &n);
     return n;
 }
-
-// Function to take input for a complex number
 Complex input_complex() {
     Complex c;
     printf("Enter real part: ");
@@ -24,7 +20,6 @@ Complex input_complex() {
     return c;
 }
 
-// Function to take input for n complex numbers
 void input_n_complex(int n, Complex c[n]) {
     printf("Enter %d complex numbers:\n", n);
     for (int i = 0; i < n; ++i) {
@@ -33,7 +28,6 @@ void input_n_complex(int n, Complex c[n]) {
     }
 }
 
-// Function to add two complex numbers
 Complex add(Complex a, Complex b) {
     Complex sum;
     sum.real = a.real + b.real;
