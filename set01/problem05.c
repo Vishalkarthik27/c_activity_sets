@@ -11,7 +11,6 @@ int main() {
     num3 = input();
     largest = compare(num1, num2, num3);
     output(num1, num2, num3, largest);
-
     return 0;
 }
 int input() {
