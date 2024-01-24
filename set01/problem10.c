@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Function to take input for two strings
 void input_two_strings(char *string1, char *string2) {
     printf("Enter the first string: ");
     scanf("%s", string1);
@@ -9,20 +8,16 @@ void input_two_strings(char *string1, char *string2) {
     scanf("%s", string2);
 }
 
-// Function to compare two strings character by character
 int stringcompare(char *string1, char *string2) {
     int i = 0;
 
-    // Compare until the end of one of the strings or until characters are different
     while (string1[i] != '\0' && string2[i] != '\0' && string1[i] == string2[i]) {
         i++;
     }
-
-    // Compare the ASCII values of the differing characters
     if (string1[i] < string2[i]) {
-        return -1; // string1 is lesser
+        return -1;
     } else if (string1[i] > string2[i]) {
-        return 1; // string1 is greater
+        return 1; 
     } else {
         return 0;
     }
