@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-// Structure to represent a complex number
 struct _complex {
     float real;
     float imaginary;
