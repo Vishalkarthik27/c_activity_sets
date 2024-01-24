@@ -41,6 +41,7 @@ Complex add(Complex a, Complex b) {
     return sum;
 }
 
+// Function to add n complex numbers
 Complex add_n_complex(int n, Complex c[n]) {
     Complex result = {0.0, 0.0};
     for (int i = 0; i < n; ++i) {
@@ -49,6 +50,7 @@ Complex add_n_complex(int n, Complex c[n]) {
     return result;
 }
 
+// Function to display the result
 void output(int n, Complex c[n], Complex result) {
     printf("Sum of %d complex numbers:\n", n);
     for (int i = 0; i < n; ++i) {
@@ -60,11 +62,17 @@ void output(int n, Complex c[n], Complex result) {
     printf("= %.2f + %.2fi\n", result.real, result.imaginary);
 }
 
+// Main function
 int main() {
     int n;
     Complex *complexNumbers, result;
+
+    // Get the value of n
     n = get_n();
+
+    // Allocate memory for n complex numbers
     complexNumbers = (Complex *)malloc(n * sizeof(Complex));
+
     input_n_complex(n, complexNumbers);
     result = add_n_complex(n, complexNumbers);
     output
