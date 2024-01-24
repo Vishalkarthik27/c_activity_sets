@@ -1,0 +1,13 @@
+Compilation started at 1/24/2024, 10:11:33 PM
+c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem12.c: In function 'main':
+c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem12.c:61:33: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+     complexNumbers = (Complex *)malloc(n * sizeof(Complex));
+                                 ^~~~~~
+c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem12.c:61:33: warning: incompatible implicit declaration of built-in function 'malloc'
+c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem12.c:61:33: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem12.c:66:5: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+     free(complexNumbers);
+     ^~~~
+c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem12.c:66:5: warning: incompatible implicit declaration of built-in function 'free'
+c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem12.c:66:5: note: include '<stdlib.h>' or provide a declaration of 'free'
+Compilation finished at 1/24/2024, 10:11:33 PM

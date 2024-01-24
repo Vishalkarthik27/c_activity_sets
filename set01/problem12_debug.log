@@ -1,0 +1,22 @@
++b main
+Breakpoint 1 at 0x40166f: file c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem12.c, line 60.
++r
+Starting program: c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01/./problem12.exe 
+[New Thread 19312.0x589c]
+[New Thread 19312.0x40c4]
+
+Breakpoint 1, main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem12.c:60
+60	    n = get_n();
++s
+get_n () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set01\problem12.c:10
+10	    printf("Enter the value of n: ");
++s
+11	    scanf("%d", &n);
++s
+12	    return n;
++quit
+A debugging session is active.
+
+	Inferior 1 [process 19312] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
