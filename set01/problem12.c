@@ -41,7 +41,6 @@ Complex add(Complex a, Complex b) {
     return sum;
 }
 
-// Function to add n complex numbers
 Complex add_n_complex(int n, Complex c[n]) {
     Complex result = {0.0, 0.0};
     for (int i = 0; i < n; ++i) {
