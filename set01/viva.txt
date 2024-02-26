@@ -1,0 +1,13 @@
+ Preprocessors are programs that process the source code before compilation. It process all the lines starting with hash.
+ a gcc compiler converts c source file into executable file.
+ a header file contains the prototype of the inbuilt functions.
+ function prototype is used to declare the return type, name of funtion and list of arguements and parameters used in It
+ stdio.h is a header file used to conduct  input and output operations in c. eg: printf()        
+
+ #include<stdio.h>
+
+int main()
+printf("the sum of number:");
+scanf("%d");
+return 0;
+
