@@ -1,2 +1,6 @@
 Compilation started at 2/27/2024, 1:55:40 PM
 Compilation finished at 2/27/2024, 1:55:40 PM
+Compilation started at 2/27/2024, 1:57:00 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 2/27/2024, 1:57:01 PM
