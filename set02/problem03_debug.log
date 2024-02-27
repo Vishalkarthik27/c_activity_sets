@@ -1,0 +1,32 @@
++b main
+Breakpoint 1 at 0x40151b: file c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem03.c, line 30.
++r
+Starting program: c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02/./problem03.exe 
+[New Thread 25172.0x5914]
+[New Thread 25172.0x6534]
+
+Breakpoint 1, main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem03.c:30
+30	    int number = input_number();
++s
+input_number () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem03.c:4
+4	    printf("Enter a number: ");
++s
+5	    scanf("%d", &num);
++s
+6	    return num;
++s
+7	}
++s
+main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem03.c:31
+31	    int isComposite = is_composite(number);
++s
+is_composite (n=6422476) at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem03.c:9
+9	    if (n < 4) {
++s
+13	    for (int i = 2; i <= n / 2; i++) {
++quit
+A debugging session is active.
+
+	Inferior 1 [process 25172] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
