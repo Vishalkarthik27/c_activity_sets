@@ -1,0 +1,27 @@
++b main
+Breakpoint 1 at 0x401514: file c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem02.c, line 24.
++r
+Starting program: c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02/./problem02.exe 
+[New Thread 27624.0x387c]
+[New Thread 27624.0x1410]
+
+Breakpoint 1, main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem02.c:24
+24	    int side1 = input_side();
++s
+input_side () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem02.c:4
+4	    printf("Enter the length of a side: ");
++s
+5	    scanf("%d", &side);
++s
+6	    return side;
++s
+7	}
++s
+main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem02.c:25
+25	    int side2 = input_side();
++quit
+A debugging session is active.
+
+	Inferior 1 [process 27624] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
