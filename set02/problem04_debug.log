@@ -1,0 +1,43 @@
++b main
+Breakpoint 1 at 0x4015a2
++r
+Starting program: c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02/./problem04.exe 
+[New Thread 38952.0x9b84]
+[New Thread 38952.0x22b0]
+
+Breakpoint 1, 0x004015a2 in main ()
++s
+Single stepping until exit from function main,
+which has no line number information.
+__chkstk_ms () at ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:163
+163	../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S: No such file or directory.
++s
+165	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++s
+167	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++s
+168	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++s
+169	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++s
+177	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++s
+178	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++s
+180	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++s
+182	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++s
+184	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++s
+0x004015e3 in main ()
++s
+Single stepping until exit from function main,
+which has no line number information.
+0x00401288 in __register_frame_info ()
++quit
+A debugging session is active.
+
+	Inferior 1 [process 38952] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
