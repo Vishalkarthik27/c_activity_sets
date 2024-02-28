@@ -1,0 +1,68 @@
++b main
+Breakpoint 1 at 0x40151f: file c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem06.c, line 26.
++r
+Starting program: c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02/./problem06.exe 
+[New Thread 31160.0x8738]
+[New Thread 31160.0x21e4]
+
+Breakpoint 1, main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem06.c:26
+26	    input_string(input_str);
++s
+input_string (a=0x61febc "üþa") at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem06.c:4
+4	    printf("Enter a string: ");
++s
+5	    scanf("%s", a);
++s
+6	}
++s
+main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem06.c:27
+27	    str_reverse(input_str, reversed_str);
++s
+str_reverse (str=0x61febc "s", rev_str=0x61fe58 "¨þa") at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem06.c:8
+8	    int length = strlen(str);
++s
+11	    for (i = length - 1, j = 0; i >= 0; i--, j++) {
++s
+12	        rev_str[j] = str[i];
++s
+11	    for (i = length - 1, j = 0; i >= 0; i--, j++) {
++s
+15	    rev_str[j] = '\0'; 
++s
+16	}
++s
+main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem06.c:28
+28	    output(input_str, reversed_str);
++s
+output (a=0x61febc "s", reverse_a=0x61fe58 "s") at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem06.c:19
+19	    printf("Original String: %s\n", a);
++s
+20	    printf("Reversed String: %s\n", reverse_a);
++s
+21	}
++s
+main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem06.c:29
+29	    return 0;
++s
+30	}
++s
+0x00401288 in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x00401292 in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+[Inferior 1 (process 31160) exited normally]
++s
+The program is not being run.
++quit
