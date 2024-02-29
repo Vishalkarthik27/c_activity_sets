@@ -1,0 +1,13 @@
++b main
+No symbol table is loaded.  Use the "file" command.
+Make breakpoint pending on future shared library load? (y or [n]) Please answer y or [n].
+Make breakpoint pending on future shared library load? (y or [n]) Breakpoint 1 (main) pending.
++r
+Starting program:  
+No executable specified, use `target exec'.
++s
+The program is not being run.
++s
+The program is not being run.
++s
+The program is not being run.
