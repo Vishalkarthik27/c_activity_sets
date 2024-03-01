@@ -188,3 +188,4 @@ void output(int n, Triangle t[n], Triangle smallest);
 ```
 The smallest triangle out of triangles with base and height (2,3) , (4,6) is the triangle having base 2.00, height 3.00 and area 3.00
 ```
+printf()
