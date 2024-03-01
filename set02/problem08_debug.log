@@ -6,4 +6,38 @@ Make breakpoint pending on future shared library load? (y or [n]) Please answer 
 Make breakpoint pending on future shared library load? (y or [n]) Please answer y or [n].
 Make breakpoint pending on future shared library load? (y or [n]) Please answer y or [n].
 Make breakpoint pending on future shared library load? (y or [n]) Please answer y or [n].
-Make breakpoint pending on future shared library load? (y or [n]) 
+Make breakpoint pending on future shared library load? (y or [n]) +b main
+Breakpoint 1 at 0x401719: file c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem08.c, line 62.
++r
+Starting program: c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02/./problem08.exe 
+[New Thread 18220.0x1e58]
+[New Thread 18220.0x6230]
+
+Breakpoint 1, 0x00401719 in main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem08.c:62
+62	int main() {
++s
+63	    int n = input_n();
++s
+input_n () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem08.c:9
+9	    printf("Enter the number of triangles: ");
++s
+10	    scanf("%d", &n);
++s
+11	    return n;
++s
+12	}
++s
+main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set02\problem08.c:64
+64	    Triangle triangles[n];
++s
+__chkstk_ms () at ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:163
+163	../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S: No such file or directory.
++s
+165	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++s
+167	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++s
+168	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
