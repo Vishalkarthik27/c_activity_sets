@@ -1,0 +1,29 @@
++b main
+Breakpoint 1 at 0x40146e: file c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set03\problem02.c, line 9.
++s
+The program is not being run.
++r
+Starting program: c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set03/./problem02.exe 
+[New Thread 10160.0x127c]
+[New Thread 10160.0x24fc]
+
+Breakpoint 1, main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set03\problem02.c:9
+9	    input_triangle(&x1, &y1, &x2, &y2, &x3, &y3);
++s
+input_triangle (x1=0x61ff18, y1=0x61ff14, x2=0x61ff10, y2=0x61ff0c, x3=0x61ff08, y3=0x61ff04)
+    at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set03\problem02.c:16
+16	    printf("Enter coordinates for point 1 (x1 y1): ");
++s
+17	    scanf("%f %f", x1, y1);
++s
+19	    printf("Enter coordinates for point 2 (x2 y2): ");
++s
+20	    scanf("%f %f", x2, y2);
++s
+22	    printf("Enter coordinates for point 3 (x3 y3): ");
++quit
+A debugging session is active.
+
+	Inferior 1 [process 10160] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
