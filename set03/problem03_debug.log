@@ -1,0 +1,41 @@
++b main
+Breakpoint 1 at 0x40146e: file c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set03\problem03.c, line 8.
++r
+Starting program: c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set03/./problem03.exe 
+[New Thread 10176.0x5520]
+[New Thread 10176.0x40b4]
+
+Breakpoint 1, main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set03\problem03.c:8
+8	    int num = input_number();
++s
+input_number () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set03\problem03.c:16
+16	    printf("Enter a number: ");
++s
+17	    scanf("%d", &n);
++s
+18	    return n;
++s
+19	}
++s
+main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set03\problem03.c:9
+9	    int result = is_prime(num);
++s
+is_prime (n=6422476) at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set03\problem03.c:22
+22	    if (n <= 1) {
++s
+25	    for (int i = 2; i * i <= n; i++) {
++s
+26	        if (n % i == 0) {
++s
+27	            return 0; 
++s
+31	}
++s
+main () at c:\Users\VISHAL KARTHIK\Documents\GitHub\c_activity_sets\set03\problem03.c:10
+10	    output(num, result);
++quit
+A debugging session is active.
+
+	Inferior 1 [process 10176] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
